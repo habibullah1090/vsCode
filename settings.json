@@ -1,0 +1,54 @@
+{
+  "workbench.colorTheme": "Just Black",
+  "workbench.startupEditor": "none",
+  // fonts
+  "editor.fontFamily": "'Anonymous Pro'",
+  "editor.codeLensFontFamily": "'Anonymous Pro'",
+  "editor.inlayHints.fontFamily": "'Anonymous Pro', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 22,
+
+  // formatter
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // eslint
+  "eslint.alwaysShowStatus": true,
+  "eslint.nodeEnv": "node",
+  "eslint.nodePath": "node",
+  "eslint.packageManager": "yarn",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "react"
+  ],
+  "terminal.integrated.useWslProfiles": false,
+
+  // Pyhons settings
+  "[python]": {
+    "breadcrumbs.showArrays": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "timeline.excludeSources": [],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.showStartPage": false,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.suggestSelection": "first",
+  "editor.minimap.enabled": false
+}
